@@ -21,7 +21,7 @@ public class ChickenTest {
 
 	@Test
 	public void testMakeSound() {
-		assertNotEquals(null, chicken.makeSound());
+		assertEquals("Cluck, cluck", chicken.makeSound());
 	}
 
 }

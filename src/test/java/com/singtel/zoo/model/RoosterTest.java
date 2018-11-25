@@ -5,23 +5,18 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class DuckTest {
+public class RoosterTest {
 
-	Duck duck;
+	Rooster rooster;
 
 	@Before
 	public void iniTest() {
-		duck = new Duck();
+		rooster = new Rooster();
 	}
 
 	@Test
 	public void testMakeSound() {
-		assertEquals("Quack, quack", duck.makeSound());
-	}
-
-	@Test
-	public void testSwim() {
-		assertEquals(true, duck.swim());
+		assertEquals("Cock-a-doodle-doo", rooster.makeSound());
 	}
 
 }

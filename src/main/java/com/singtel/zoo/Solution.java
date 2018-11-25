@@ -3,11 +3,12 @@ package com.singtel.zoo;
 import com.singtel.zoo.model.Bird;
 import com.singtel.zoo.model.Chicken;
 import com.singtel.zoo.model.Duck;
+import com.singtel.zoo.model.Rooster;
 
 public class Solution {
 
 	public static void main(String[] args) {
-		annswerQuestion2();
+		annswerQuestion3();
 	}
 
 	public static void annswerQuestion1() {
@@ -30,6 +31,14 @@ public class Solution {
 		Chicken chicken = new Chicken();
 		chicken.makeSound();
 		chicken.fly();
+
+	}
+	
+	public static void annswerQuestion3() {
+		System.out.println("####Question 3,3(a),3(b)");
+		Rooster rooster=new Rooster();
+		rooster.makeSound();
+		rooster.fly();
 
 	}
 
