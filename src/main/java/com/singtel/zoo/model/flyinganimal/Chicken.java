@@ -1,4 +1,4 @@
-package com.singtel.zoo.model;
+package com.singtel.zoo.model.flyinganimal;
 
 public class Chicken extends Bird {
 

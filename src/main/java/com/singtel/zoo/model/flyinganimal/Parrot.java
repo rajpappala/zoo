@@ -1,4 +1,6 @@
-package com.singtel.zoo.model;
+package com.singtel.zoo.model.flyinganimal;
+
+import com.singtel.zoo.model.Creature;
 
 public class Parrot<E extends Creature> extends Bird {
 

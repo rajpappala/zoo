@@ -1,17 +1,17 @@
 package com.singtel.zoo;
 
-import com.singtel.zoo.model.Bird;
-import com.singtel.zoo.model.Cat;
-import com.singtel.zoo.model.Chicken;
-import com.singtel.zoo.model.Dog;
-import com.singtel.zoo.model.Duck;
-import com.singtel.zoo.model.Parrot;
-import com.singtel.zoo.model.Rooster;
+import com.singtel.zoo.model.flyinganimal.Bird;
+import com.singtel.zoo.model.flyinganimal.Chicken;
+import com.singtel.zoo.model.flyinganimal.Duck;
+import com.singtel.zoo.model.flyinganimal.Parrot;
+import com.singtel.zoo.model.flyinganimal.Rooster;
+import com.singtel.zoo.model.walkinganimal.Cat;
+import com.singtel.zoo.model.walkinganimal.Dog;
 
-public class Solution {
+public class SolutionA {
 
 	public static void main(String[] args) {
-		annswerQuestion4();
+		annswerQuestion2();
 	}
 
 	public static void annswerQuestion1() {

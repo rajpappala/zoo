@@ -1,11 +1,14 @@
 package com.singtel.zoo.model;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sun.tools.doclets.internal.toolkit.resources.doclets;
+import com.singtel.zoo.model.flyinganimal.Parrot;
+import com.singtel.zoo.model.flyinganimal.Rooster;
+import com.singtel.zoo.model.walkinganimal.Cat;
+import com.singtel.zoo.model.walkinganimal.Dog;
 
 public class ParrotTest {
 

@@ -5,20 +5,20 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.singtel.zoo.model.walkinganimal.Animal;
+import com.singtel.zoo.model.swimminganimal.Fish;
 
-public class AnimalTest {
+public class FishTest {
 
-	Animal animal;
+	Fish fish;
 
 	@Before
 	public void iniTest() {
-		animal = new Animal();
+		fish = new Fish();
 	}
 
 	@Test
-	public void testWalk() {
-		assertEquals(true, animal.walk());
+	public void testSwim() {
+		assertEquals(true, fish.swim());
 	}
 
 }

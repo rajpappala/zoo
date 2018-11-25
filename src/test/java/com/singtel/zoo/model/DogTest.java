@@ -7,6 +7,7 @@ import java.time.DayOfWeek;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.singtel.zoo.model.walkinganimal.Dog;
 import com.sun.org.apache.bcel.internal.generic.NEW;
 
 public class DogTest {

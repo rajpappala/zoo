@@ -1,10 +1,9 @@
 package com.singtel.zoo.model;
 
-public class Animal implements Creature {
+public interface Walkinganimal extends Creature {
 
-	public boolean walk() {
+	default boolean walk() {
 		System.out.println("I am walking");
 		return true;
 	}
-
 }

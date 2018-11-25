@@ -5,6 +5,8 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.singtel.zoo.model.flyinganimal.Duck;
+
 public class DuckTest {
 
 	Duck duck;
