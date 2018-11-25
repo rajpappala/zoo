@@ -4,11 +4,13 @@ import com.singtel.zoo.model.swimminganimal.Clownfish;
 import com.singtel.zoo.model.swimminganimal.Dolphin;
 import com.singtel.zoo.model.swimminganimal.Fish;
 import com.singtel.zoo.model.swimminganimal.Shark;
+import com.singtel.zoo.model.walkinganimal.Caterpillar;
+import com.singtel.zoo.model.walkinganimal.Caterpillar.Butterfly;
 
 public class SolutionB {
 
 	public static void main(String[] args) {
-		annswerQuestion2();
+		annswerQuestion3();
 	}
 
 	public static void annswerQuestion1() {
@@ -37,5 +39,7 @@ public class SolutionB {
 		dolphin.swim();
 
 	}
+
+	
 
 }
