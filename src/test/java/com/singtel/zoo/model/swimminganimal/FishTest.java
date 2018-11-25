@@ -1,4 +1,4 @@
-package com.singtel.zoo.model;
+package com.singtel.zoo.model.swimminganimal;
 
 import static org.junit.Assert.assertEquals;
 
