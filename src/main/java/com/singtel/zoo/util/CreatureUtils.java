@@ -67,4 +67,5 @@ public enum CreatureUtils {
 	};
 
 	public abstract boolean action(Creature creature);
+
 }

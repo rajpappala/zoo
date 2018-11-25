@@ -4,6 +4,7 @@ public class Shark extends Fish {
 
 	private Colour colour;
 	private Size size;
+	private String name;
 
 	public Shark() {
 		// TODO Auto-generated constructor stub
@@ -24,5 +25,18 @@ public class Shark extends Fish {
 		return size;
 	}
 
-	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Shark(String name) {
+		this.name = name;
+		this.colour = Colour.GREY;
+		this.size = Size.LARGE;
+	}
+
 }

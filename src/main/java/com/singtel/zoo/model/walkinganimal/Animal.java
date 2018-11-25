@@ -4,9 +4,24 @@ import com.singtel.zoo.model.Walkinganimal;
 
 public class Animal implements Walkinganimal {
 
-	public boolean walk() {
-		System.out.println("I am walking");
-		return true;
+	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Animal(String name) {
+		super();
+		this.name = name;
+	}
+
+	public Animal() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 
 }

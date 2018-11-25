@@ -1,6 +1,7 @@
 package com.singtel.zoo.model.flyinganimal;
 
 public class Rooster extends Chicken {
+	private String name;
 
 	@Override
 	public String makeSound() {
@@ -13,4 +14,22 @@ public class Rooster extends Chicken {
 		System.out.println("Rooster: can fly");
 		return true;
 	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Rooster(String name) {
+		super();
+		this.name = name;
+	}
+
+	public Rooster() {
+		super();
+	}
+
 }

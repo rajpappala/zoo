@@ -19,6 +19,8 @@ import com.singtel.zoo.model.walkinganimal.Caterpillar;
 import com.singtel.zoo.model.walkinganimal.Dog;
 import com.singtel.zoo.util.CreatureUtils;
 
+import ch.qos.logback.core.net.SyslogOutputStream;
+
 public class SolutionE {
 	public static void main(String[] args) {
 		annswerQuestion1();
