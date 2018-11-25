@@ -11,7 +11,10 @@ import com.singtel.zoo.model.walkinganimal.Dog;
 public class SolutionA {
 
 	public static void main(String[] args) {
+		annswerQuestion1();
 		annswerQuestion2();
+		annswerQuestion3();
+		annswerQuestion4();
 	}
 
 	public static void annswerQuestion1() {
@@ -36,27 +39,27 @@ public class SolutionA {
 		chicken.fly();
 
 	}
-	
+
 	public static void annswerQuestion3() {
 		System.out.println("Question 3,3(a),3(b)");
-		Rooster rooster=new Rooster();
+		Rooster rooster = new Rooster();
 		rooster.makeSound();
 		rooster.fly();
 
 	}
-	
+
 	public static void annswerQuestion4() {
 		System.out.println("Question 4,4(a),4(b),4(c),4(d)");
-		Dog dog=new Dog();
-		Parrot<Dog> parrotLivingWithDog=new Parrot<Dog>(dog);
+		Dog dog = new Dog();
+		Parrot<Dog> parrotLivingWithDog = new Parrot<Dog>(dog);
 		parrotLivingWithDog.makeSound();
-		
-		Cat cat=new Cat();
-		Parrot<Cat> parrotLivingWithcat=new Parrot<Cat>(cat);
+
+		Cat cat = new Cat();
+		Parrot<Cat> parrotLivingWithcat = new Parrot<Cat>(cat);
 		parrotLivingWithcat.makeSound();
-		
-		Rooster rooster=new Rooster();
-		Parrot<Rooster> parrotLivingWithRooster=new Parrot<Rooster>(rooster);
+
+		Rooster rooster = new Rooster();
+		Parrot<Rooster> parrotLivingWithRooster = new Parrot<Rooster>(rooster);
 		parrotLivingWithRooster.makeSound();
 
 	}

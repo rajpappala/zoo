@@ -10,6 +10,8 @@ import com.singtel.zoo.model.walkinganimal.Caterpillar.Butterfly;
 public class SolutionB {
 
 	public static void main(String[] args) {
+		annswerQuestion1();
+		annswerQuestion2();
 		annswerQuestion3();
 	}
 
