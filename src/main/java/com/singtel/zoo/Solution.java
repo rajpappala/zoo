@@ -1,21 +1,24 @@
 package com.singtel.zoo;
 
 import com.singtel.zoo.model.Bird;
+import com.singtel.zoo.model.Cat;
 import com.singtel.zoo.model.Chicken;
+import com.singtel.zoo.model.Dog;
 import com.singtel.zoo.model.Duck;
+import com.singtel.zoo.model.Parrot;
 import com.singtel.zoo.model.Rooster;
 
 public class Solution {
 
 	public static void main(String[] args) {
-		annswerQuestion3();
+		annswerQuestion4();
 	}
 
 	public static void annswerQuestion1() {
 		// Implemented Sign method
 		// Optimised code
 		// Unit test implemented for Animal and Bird
-		System.out.println("####Question 1,1(a),1(b)");
+		System.out.println("Question 1,1(a),1(b)");
 		Bird bird = new Bird();
 		bird.walk();
 		bird.fly();
@@ -23,7 +26,7 @@ public class Solution {
 	}
 
 	public static void annswerQuestion2() {
-		System.out.println("####Question 2,2(a),2(b)");
+		System.out.println("Question 2,2(a),2(b)");
 		Duck duck = new Duck();
 		duck.makeSound();
 		duck.swim();
@@ -35,10 +38,26 @@ public class Solution {
 	}
 	
 	public static void annswerQuestion3() {
-		System.out.println("####Question 3,3(a),3(b)");
+		System.out.println("Question 3,3(a),3(b)");
 		Rooster rooster=new Rooster();
 		rooster.makeSound();
 		rooster.fly();
+
+	}
+	
+	public static void annswerQuestion4() {
+		System.out.println("Question 4,4(a),4(b),4(c),4(d)");
+		Dog dog=new Dog();
+		Parrot<Dog> parrotLivingWithDog=new Parrot<Dog>(dog);
+		parrotLivingWithDog.makeSound();
+		
+		Cat cat=new Cat();
+		Parrot<Cat> parrotLivingWithcat=new Parrot<Cat>(cat);
+		parrotLivingWithcat.makeSound();
+		
+		Rooster rooster=new Rooster();
+		Parrot<Rooster> parrotLivingWithRooster=new Parrot<Rooster>(rooster);
+		parrotLivingWithRooster.makeSound();
 
 	}
 
