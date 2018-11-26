@@ -17,7 +17,7 @@ SolutionE.java
 mvn run
 
 # Rest API
-Implemented Rest APi in [RESTfulAPI Branch](https://github.com/rajpappala/zoo/edit/RESTfulAPI/).
+Implemented Rest APi in [RESTfulAPI Branch](https://github.com/rajpappala/zoo/tree/RESTfulAPI).
 
 **How to run**
 mvn spring-boot:run
