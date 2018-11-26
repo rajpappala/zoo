@@ -14,7 +14,7 @@ SolutionE.java
 
 # Run Testcases
 
-mvn run
+mvn test
 
 # Rest API
 Implemented Rest APi in [RESTfulAPI Branch](https://github.com/rajpappala/zoo/tree/RESTfulAPI).
